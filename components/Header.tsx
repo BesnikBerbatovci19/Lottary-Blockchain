@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <header className='grid grid-cols-2 md:grid-cols-5 justify-between items-center p-5'>
         <div className='flex items-center space-x-2'>
-            <img className='rounded-full h-20 w-20' src='https://i.imgur.com/4h7mAu7.png' alt=""/>
+            <img className='rounded-full h-20 w-20' src='https://lh3.googleusercontent.com/2Cc469OUdtlafZCe1EGMiYJn_wqz3f8ddgpLWspuS4lwn0SyALtS8A69sHSV-g3bEySKIP8EyiKZoBiiC12pZRpQLzl6G-aCQ2bqRA=s0' alt=""/>
             <div>
-            <h1 className='text-lg text-white font-bold'>PAPAFAM DRAW</h1>
+            <h1 className='text-lg text-white font-bold'>SEBI DRAW</h1>
             <p className='text-xs text-emerald-500 truncate'>User: {address?.substring(0, 5)} ... {address?.substring(address.length, address.length - 5)}</p>
             </div>
         </div>
